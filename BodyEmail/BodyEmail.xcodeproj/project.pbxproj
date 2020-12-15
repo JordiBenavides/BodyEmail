@@ -13,6 +13,7 @@
 		9D465474258917FA00ED341A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D465472258917FA00ED341A /* Main.storyboard */; };
 		9D465476258917FF00ED341A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D465475258917FF00ED341A /* Assets.xcassets */; };
 		9D465479258917FF00ED341A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D465477258917FF00ED341A /* LaunchScreen.storyboard */; };
+		9D46548825891DEA00ED341A /* BodyEmailAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D46548725891DEA00ED341A /* BodyEmailAPI.swift */; };
 		BBC10A4E5156F48551C124CF /* Pods_BodyEmail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B651176A2047CEBDBBCB38 /* Pods_BodyEmail.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		9D465475258917FF00ED341A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D465478258917FF00ED341A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D46547A258917FF00ED341A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D46548725891DEA00ED341A /* BodyEmailAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyEmailAPI.swift; sourceTree = "<group>"; };
 		D0B651176A2047CEBDBBCB38 /* Pods_BodyEmail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BodyEmail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 		9D46548525891CB700ED341A /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				9D46548725891DEA00ED341A /* BodyEmailAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D465471258917FA00ED341A /* ViewController.swift in Sources */,
+				9D46548825891DEA00ED341A /* BodyEmailAPI.swift in Sources */,
 				9D46546D258917FA00ED341A /* AppDelegate.swift in Sources */,
 				9D46546F258917FA00ED341A /* SceneDelegate.swift in Sources */,
 			);
