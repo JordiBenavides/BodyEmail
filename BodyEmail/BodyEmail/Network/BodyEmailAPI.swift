@@ -12,6 +12,7 @@ import Moya
 enum BodyEmailAPI {
     
     case getBodyEmail
+    case getBodyEmailById(id: Int)
 }
 
 extension BodyEmailAPI:TargetType,AccessTokenAuthorizable {
@@ -21,12 +22,16 @@ extension BodyEmailAPI:TargetType,AccessTokenAuthorizable {
         switch self {
         case .getBodyEmail:
             return "comments"
+        case .getBodyEmailById(id: let id):
+            return "comments/\(id)"
         }
     }
     
     var method: Moya.Method {
         switch self {
         case .getBodyEmail:
+            return .get
+        case .getBodyEmailById(id: _):
             return .get
         }
     }
@@ -35,12 +40,16 @@ extension BodyEmailAPI:TargetType,AccessTokenAuthorizable {
         switch self {
         case .getBodyEmail:
             return .bearer
+        case .getBodyEmailById(id: _):
+            return .bearer
         }
     }
     
     public var task: Task {
         switch self {
         case .getBodyEmail:
+            return .requestPlain
+        case .getBodyEmailById(id: _):
             return .requestPlain
         }
     }

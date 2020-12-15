@@ -13,6 +13,11 @@ struct ResponseAPIArray: Codable {
     let data:[BodyEmail]
 }
 
+struct ResponseAPI: Codable {
+    
+    let data: BodyEmail
+}
+
 struct BodyEmail: Codable {
     
     let id: Int

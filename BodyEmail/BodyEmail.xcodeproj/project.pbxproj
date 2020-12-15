@@ -18,6 +18,8 @@
 		9D46548C258926B400ED341A /* ViewModelBodyEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D46548B258926B400ED341A /* ViewModelBodyEmail.swift */; };
 		9D46549025892A3600ED341A /* BodyEmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D46548E25892A3600ED341A /* BodyEmailTableViewCell.swift */; };
 		9D46549125892A3600ED341A /* BodyEmailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D46548F25892A3600ED341A /* BodyEmailTableViewCell.xib */; };
+		9D4654932589318500ED341A /* ViewModelOneBodyEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4654922589318500ED341A /* ViewModelOneBodyEmail.swift */; };
+		9D4654952589352200ED341A /* OneBodyEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4654942589352200ED341A /* OneBodyEmailViewController.swift */; };
 		BBC10A4E5156F48551C124CF /* Pods_BodyEmail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B651176A2047CEBDBBCB38 /* Pods_BodyEmail.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		9D46548B258926B400ED341A /* ViewModelBodyEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBodyEmail.swift; sourceTree = "<group>"; };
 		9D46548E25892A3600ED341A /* BodyEmailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyEmailTableViewCell.swift; sourceTree = "<group>"; };
 		9D46548F25892A3600ED341A /* BodyEmailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BodyEmailTableViewCell.xib; sourceTree = "<group>"; };
+		9D4654922589318500ED341A /* ViewModelOneBodyEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelOneBodyEmail.swift; sourceTree = "<group>"; };
+		9D4654942589352200ED341A /* OneBodyEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBodyEmailViewController.swift; sourceTree = "<group>"; };
 		D0B651176A2047CEBDBBCB38 /* Pods_BodyEmail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BodyEmail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				9D46548B258926B400ED341A /* ViewModelBodyEmail.swift */,
+				9D4654922589318500ED341A /* ViewModelOneBodyEmail.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				9D465470258917FA00ED341A /* BodyEmailViewController.swift */,
+				9D4654942589352200ED341A /* OneBodyEmailViewController.swift */,
 				9D46548D25892A0B00ED341A /* Cell */,
 			);
 			path = View;
@@ -288,10 +294,12 @@
 			files = (
 				9D465471258917FA00ED341A /* BodyEmailViewController.swift in Sources */,
 				9D46548C258926B400ED341A /* ViewModelBodyEmail.swift in Sources */,
+				9D4654932589318500ED341A /* ViewModelOneBodyEmail.swift in Sources */,
 				9D46548A2589258600ED341A /* BodyEmail.swift in Sources */,
 				9D46548825891DEA00ED341A /* BodyEmailAPI.swift in Sources */,
 				9D46546D258917FA00ED341A /* AppDelegate.swift in Sources */,
 				9D46549025892A3600ED341A /* BodyEmailTableViewCell.swift in Sources */,
+				9D4654952589352200ED341A /* OneBodyEmailViewController.swift in Sources */,
 				9D46546F258917FA00ED341A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
