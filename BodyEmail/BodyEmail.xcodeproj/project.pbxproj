@@ -15,6 +15,7 @@
 		9D465479258917FF00ED341A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D465477258917FF00ED341A /* LaunchScreen.storyboard */; };
 		9D46548825891DEA00ED341A /* BodyEmailAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D46548725891DEA00ED341A /* BodyEmailAPI.swift */; };
 		9D46548A2589258600ED341A /* BodyEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4654892589258600ED341A /* BodyEmail.swift */; };
+		9D46548C258926B400ED341A /* ViewModelBodyEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D46548B258926B400ED341A /* ViewModelBodyEmail.swift */; };
 		BBC10A4E5156F48551C124CF /* Pods_BodyEmail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B651176A2047CEBDBBCB38 /* Pods_BodyEmail.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		9D46547A258917FF00ED341A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D46548725891DEA00ED341A /* BodyEmailAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyEmailAPI.swift; sourceTree = "<group>"; };
 		9D4654892589258600ED341A /* BodyEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyEmail.swift; sourceTree = "<group>"; };
+		9D46548B258926B400ED341A /* ViewModelBodyEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBodyEmail.swift; sourceTree = "<group>"; };
 		D0B651176A2047CEBDBBCB38 /* Pods_BodyEmail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BodyEmail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 		9D46548125891C7D00ED341A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9D46548B258926B400ED341A /* ViewModelBodyEmail.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D465471258917FA00ED341A /* ViewController.swift in Sources */,
+				9D46548C258926B400ED341A /* ViewModelBodyEmail.swift in Sources */,
 				9D46548A2589258600ED341A /* BodyEmail.swift in Sources */,
 				9D46548825891DEA00ED341A /* BodyEmailAPI.swift in Sources */,
 				9D46546D258917FA00ED341A /* AppDelegate.swift in Sources */,
